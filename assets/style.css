@@ -1,0 +1,53 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
+@import "fonts/typography.css";
+
+html, body {
+  font-family: "AvertaPE", Arial, Helvetica, sans-serif;
+  color: #333333;
+  font-size: 17px;
+  line-height: 150%;
+  text-rendering: geometricprecision;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, p {
+  margin: 0 0 24px 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.container {
+  margin: 80px auto 0 auto;
+  max-width: 340px;
+}
+
+.logo {
+  margin: 0 16px 8px 16px;
+  width: 168px;
+  height: 32px;
+}
+
+.card {
+  text-align: center;
+  margin: 0 16px;
+  padding: 40px;
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.05);
+}
+
+.button {
+  display: inline-block;
+  padding: 11px 40px;
+  background-color: #00b7ff;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid #00b7ff;
+  border-radius: 64px;
+}
