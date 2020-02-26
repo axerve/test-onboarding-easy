@@ -1,2 +1,2 @@
 # test-onboarding-easy
-Link per testare l'onboarding easy anonimamente.
+Pagina di partenza per testare l'onboarding Easy anonimamente.
