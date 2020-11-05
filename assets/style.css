@@ -4,7 +4,7 @@
 html, body {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif;
   color: #333333;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 150%;
   text-rendering: geometricprecision;
   -webkit-font-smoothing: antialiased;
@@ -42,12 +42,18 @@ h1 {
 }
 
 .button {
-  display: inline-block;
-  padding: 11px 40px;
+  display: block;
+  margin: 0 0 24px 0;
+  padding: 12px 24px;
   background-color: #00b7ff;
   color: #fff;
   font-weight: 500;
   text-decoration: none;
   border: 1px solid #00b7ff;
   border-radius: 64px;
+}
+
+.link-button {
+  color: #00466E;
+  text-decoration: underline;
 }
